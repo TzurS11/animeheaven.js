@@ -1,0 +1,30 @@
+{
+  "name": "animeheaven.js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "ts-node ./src/test/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/TzurS11/animeheaven.js"
+  },
+  "keywords": [
+    "scraping",
+    "download",
+    "anime downloader",
+    "anime download,",
+    "anime",
+    "anime heaven",
+    "animeheaven"
+  ],
+  "author": "TzurS11",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jsdom": "^21.1.6",
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0"
+  }
+}
